@@ -16,7 +16,7 @@ module "db_asg" {
   min_size                      = "${var.min_size}"
   max_size                      = "${var.max_size}"
   desired_capacity              = "${var.desired_capacity}"
-  wait_for_capacity_timeout     = 0
-  associate_public_ip_address   = true
+  wait_for_capacity_timeout     =  0
+  associate_public_ip_address   =  true
   
 }
