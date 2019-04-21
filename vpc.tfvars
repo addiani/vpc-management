@@ -1,7 +1,11 @@
 ami               =           "ami-07683a44e80cd32c5"
 instance_type     =           "t2.micro" 
-count             =            5
+count             =            6
 key_name          =           "developer"
 Created_by        =           "addiani"
 Env               =           "Dev"
 Dept              =           "IT"
+min_size          =           "1"
+max_size          =           "12"
+Appname           =           "wordpress"
+desired_capacity  =           "3"
