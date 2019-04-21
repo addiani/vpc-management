@@ -18,6 +18,6 @@ module "asg" {
   max_size                  = "${var.max_size}"
   desired_capacity          = "${var.desired_capacity}"
   wait_for_capacity_timeout = 0
-
+  public_ip_address         = true 
   
 }
