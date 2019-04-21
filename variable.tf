@@ -8,4 +8,4 @@ variable "Dept" {}
 variable "min_size" {}
 variable "max_size" {}
 variable "Appname" {}
-variable "desired_capacity"{}
+variable "desired_capacity" {}
