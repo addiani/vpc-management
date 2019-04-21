@@ -1,4 +1,4 @@
-module "db-asg" {
+module "DB-asg" {
   source = "terraform-aws-modules/autoscaling/aws"
 
   name = "${var.DBname}"
