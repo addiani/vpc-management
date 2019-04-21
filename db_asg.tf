@@ -1,4 +1,4 @@
-module "asg" {
+module "db-asg" {
   source = "terraform-aws-modules/autoscaling/aws"
 
   name = "${var.DBname}"
@@ -6,7 +6,7 @@ module "asg" {
   # Launch configuration
   lc_name = "example-lc"
 
-  image_id        = "${var.ami}"
+  image_id        = "${var.db_ami}"
   instance_type   = "${var.instance_type}"
   security_groups = ["${aws_security_group.allow_ssh.id}"]
 
