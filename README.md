@@ -10,3 +10,6 @@ terraform show
 terraform destroy -target=aws_instance.web[1] --var-file=environment/dev.tfvars
 
 https://dreampuf.github.io/GraphvizOnline/  ## this is for graph show 
+
+terraform destroy -target=aws_s3_bucket.newbucket --var-file=environment/dev.tfvars 
+
